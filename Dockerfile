@@ -12,7 +12,8 @@ RUN apt-get install -y --no-install-recommends \
     libjpeg62-turbo-dev \
     libfreetype6-dev \
     libcurl4-openssl-dev \
-    libxml2-dev
+    libxml2-dev \
+    libonig-dev
 
 # Configure and install PHP extensions
 RUN docker-php-ext-configure gd --with-freetype --with-jpeg \
