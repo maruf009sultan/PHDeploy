@@ -60,7 +60,7 @@ Just fork, upload your files, connect your repo, and watch your PHP app go live.
    - Import your forked repo, NOT the original!
    - Or use the button below (replace the repo URL with your fork if prompted):
 
-   [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/maruf009sultan/phphost)
+   [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/maruf009sultan/PHDeploy)
 
 5. **Done!**  
    - Vercel will build and deploy your PHP endpoints — get your live URL instantly.
