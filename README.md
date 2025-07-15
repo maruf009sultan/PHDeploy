@@ -70,7 +70,7 @@ Vercel uses a **serverless** architecture for PHP (and all other backends except
 ---
 
 ### 🐳 Deploy to Render
-
+0. just go to https://render.com/deploy?repo=https://github.com/maruf009sultan/PHDeploy
 1. **Fork or clone this repo.**
 2. **Push to GitHub.**
 3. **Go to [Render](https://render.com/), click "New Web Service", connect your repo.**
