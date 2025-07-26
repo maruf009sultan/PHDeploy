@@ -1,14 +1,24 @@
 {
   "version": 2,
-  "functions": {
-    "api/*.php": {
-      "runtime": "vercel-php@0.7.3"
+  "builds": [
+    {
+      "src": "api/*.js",
+      "use": "@vercel/node"
     }
-  },
+  ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/api/index.php"
+      "src": "/api/search",
+      "dest": "/api/search.js"
+    },
+    {
+      "src": "/api/callback",
+      "dest": "/api/callback.js",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/",
+      "dest": "/index.html"
     }
   ]
 }
